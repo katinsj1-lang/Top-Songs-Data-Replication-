@@ -13,7 +13,7 @@ Chart Duration refers to the number of weeks a song remained on the top 100 char
 Chart Peak refers to the lowest numerical position the song achieved on the top 100 chart. (Remember, 1 is a better value than 100)
 
 
-The datset to be used for replication: [Copy of Music 2 - Descriptive Table.csv](https://github.com/user-attachments/files/24161633/Copy.of.Music.2.-.Descriptive.Table.csv)
+The datset to be used for replication is under the file "Data Table.csv"
 
 
 From the data set, import the CSV data into Rstudio where it is now in your environment.

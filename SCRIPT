@@ -1,0 +1,16 @@
+music_data <- read.csv("NAME OF THE CSV FILE.CSV")
+
+plot(
+  x = data$chart_peak,
+  y = data$chart_duration,
+  main = "Scatterplot Regression: Chart Duration vs. Chart Peak",
+  xlab = "Chart Peak (Lower is Better)",
+  ylab = "Chart Duration (Higher is Better)",
+  pch = 19,
+  col = "blue",
+  cex = 1.0 
+)
+
+> regression_model <- lm(chart_duration ~ chart_peak, data = data)
+
+> abline(regression_model, col = "red", lwd = 2)

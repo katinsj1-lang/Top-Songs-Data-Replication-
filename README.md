@@ -16,4 +16,8 @@ Chart Peak refers to the lowest numerical position the song achieved on the top 
 The datset to be used for replication: [Copy of Music 2 - Descriptive Table.csv](https://github.com/user-attachments/files/24161633/Copy.of.Music.2.-.Descriptive.Table.csv)
 
 
-To replicate, download the script and put it into Rstudio. Then run the script to reproduce results. 
+From the data set, import the CSV data into Rstudio where it is now in your environment.
+
+From here, paste the script into your console to replicate results. 
+
+

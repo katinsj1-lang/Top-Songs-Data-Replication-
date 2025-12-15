@@ -11,6 +11,6 @@ plot(
   cex = 1.0 
 )
 
-> regression_model <- lm(chart_duration ~ chart_peak, data = data)
+ regression_model <- lm(chart_duration ~ chart_peak, data = data)
 
-> abline(regression_model, col = "red", lwd = 2)
+ abline(regression_model, col = "red", lwd = 2)

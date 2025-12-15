@@ -2,6 +2,9 @@
 Steps to replicate the results for the correlation between a songs Chart Peak and Chart Duration from the top 100 songs during the week of August 9, 2025. 
 
 
+IMPORTANT!!!!!!! WHEN PASTING YOUR SCRIPT, MAKE SURE YOU ARE MANUALLY INPUTTING THE NAME OF YOUR CSV FILE IF CHANGED. 
+
+
 The raw list of songs can be found here: https://ca.billboard.com/charts/hot-100/2025-08-09
 
 

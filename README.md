@@ -9,7 +9,9 @@ The raw list of songs can be found here: https://ca.billboard.com/charts/hot-100
 
 
 From this list of songs, two primary variables were used. Chart Peak and Chart Duration
+
 Chart Duration refers to the number of weeks a song remained on the top 100 chart.
+
 Chart Peak refers to the lowest numerical position the song achieved on the top 100 chart. (Remember, 1 is a better value than 100)
 
 

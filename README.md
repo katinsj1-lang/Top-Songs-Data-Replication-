@@ -1,5 +1,5 @@
 # Top-Songs-Data-Replication-
-Steps to replicate the results for the correlation between a songs Chart Peak and Chart Duration from the top 100 songs during the week of August 9, 2025. 
+Steps to replicate the results for the correlation between a songs Chart Peak and Chart Duration from the top 100 songs during the week of August 9, 2025
 
 
 IMPORTANT!!!!!!! WHEN PASTING YOUR SCRIPT, MAKE SURE YOU ARE MANUALLY INPUTTING THE NAME OF YOUR CSV FILE!!!

@@ -1,6 +1,10 @@
 library(readr)
 
+# loads items in library
+
 Copy_of_Music_2_Data_Table_Tabular <- read_csv("Copy of Music 2 - Data Table Tabular.csv")
+
+# loads and reads the Data we are using 
 
 plot(
   x = Copy_of_Music_2_Data_Table_Tabular$chart_peak,
@@ -13,9 +17,15 @@ plot(
   cex = 1.0
 )
 
+# Plots the data we are using into a scatterplot 
+
 regression_model <- lm(
   chart_duration ~ chart_peak,
   data = Copy_of_Music_2_Data_Table_Tabular
 )
 
+# Makes the linear regression line 
+
 abline(regression_model, col = "red", lwd = 2)
+
+# Colors the regression line red. 

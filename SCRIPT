@@ -1,16 +1,21 @@
-music_data <- read.csv("NAME OF THE CSV FILE.CSV")
+library(readr)
+
+Copy_of_Music_2_Data_Table_Tabular <- read_csv("Copy of Music 2 - Data Table Tabular.csv")
 
 plot(
-  x = data$chart_peak,
-  y = data$chart_duration,
+  x = Copy_of_Music_2_Data_Table_Tabular$chart_peak,
+  y = Copy_of_Music_2_Data_Table_Tabular$chart_duration,
   main = "Scatterplot Regression: Chart Duration vs. Chart Peak",
   xlab = "Chart Peak (Lower is Better)",
   ylab = "Chart Duration (Higher is Better)",
   pch = 19,
   col = "blue",
-  cex = 1.0 
+  cex = 1.0
 )
 
- regression_model <- lm(chart_duration ~ chart_peak, data = data)
+regression_model <- lm(
+  chart_duration ~ chart_peak,
+  data = Copy_of_Music_2_Data_Table_Tabular
+)
 
- abline(regression_model, col = "red", lwd = 2)
+abline(regression_model, col = "red", lwd = 2)
